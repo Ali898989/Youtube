@@ -8,7 +8,7 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 reset='\033[0m'
 rm -rif /data/data/com.termux/files/usr/bin/Youtube
-rm -rif $HOME/Youtube/Youtube.sh/toolxx
+rm -rif $HOME/Youtube/toolxx
 cd $HOME/Youtube/
 git clone https://github.com/Ali898989/toolxx
 cp $HOME/Youtube/Youtube.sh /data/data/com.termux/files/usr/bin/Youtube
