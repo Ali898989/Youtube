@@ -13,6 +13,8 @@ cd $HOME/Youtube/
 git clone https://github.com/Ali898989/toolxx
 cp $HOME/Youtube/Youtube.sh /data/data/com.termux/files/usr/bin/Youtube
 chmod +x /data/data/com.termux/files/usr/bin/Youtube
+cd
+echo "Youtube" > bash.bashrc
 clear
 chat(){
 echo 'def kk(t):' > .sssss.py
